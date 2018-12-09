@@ -1,0 +1,18 @@
+{
+  "custom_myTestIds": {
+    "dev": {
+      "devId1": "devId1Value"
+    },
+    "stg": {
+      "stgId1": "stgId1Value"
+    },
+    "prod": {
+      "prodId1": "prodId1Value",
+      "prodId2": "prodId2Value",
+      "prodId3": "prodId3Value",
+      "prodId4": "prodId4Value",
+      "prodId5": "prodId5Value",
+      "prodId6": "prodId6Value"
+    }
+  }
+}
