@@ -3,7 +3,6 @@ package com.sample.servicename.conf;
 import java.util.Map;
 import java.util.Optional;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
