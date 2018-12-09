@@ -17,7 +17,7 @@ public class JsonPropertySourceFactory implements PropertySourceFactory {
       throws IOException {
     System.out.println("JsonPropertySourceFactory initialized");
     Map readValue = new ObjectMapper().readValue(resource.getInputStream(), Map.class);
-    return new MapPropertySource("any name is fine", readValue);
+    return new MapPropertySource("json-property", readValue);
   }
 
 }
